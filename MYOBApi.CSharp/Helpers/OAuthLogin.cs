@@ -27,7 +27,7 @@ using MYOB.AccountRight.SDK;
 
 namespace MYOBApi.CSharp.Helpers
 {
-    internal static class OAuthLogin
+    public static class OAuthLogin
     {
         private const string CsOAuthServer = "https://secure.myob.com/oauth2/account/authorize/";
 

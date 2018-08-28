@@ -165,15 +165,13 @@ namespace MYOBApi.CSharp.Forms
             //Get the credentials for the database
             var frmLogin = new LoginForm();
             frmLogin.ShowDialog(this);
-            if (frmLogin.Username.Length > 0)
-            {
-                ICompanyFileCredentials credentials = new CompanyFileCredentials(frmLogin.Username, frmLogin.Password);
+            if (frmLogin.Username.Length <= 0) return;
+            ICompanyFileCredentials credentials = new CompanyFileCredentials(frmLogin.Username, frmLogin.Password);
 
-                //load the Invoice List
-                var frmInvoiceList = new InvoiceListForm();
-                frmInvoiceList.Initialise(config, companyFile, credentials, _oAuthKeyService);
-                frmInvoiceList.Show();
-            }
+            ////load the Invoice List
+            //var frmInvoiceList = new InvoiceListForm();
+            //frmInvoiceList.Initialise(config, companyFile, credentials, _oAuthKeyService);
+            //frmInvoiceList.Show();
         }
 
 
