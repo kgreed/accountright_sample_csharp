@@ -41,10 +41,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MYOB.AccountRight.SDK, Version=2016.2.99.0, Culture=neutral, PublicKeyToken=f83481fd544f6c95, processorArchitecture=MSIL">
-      <HintPath>..\..\kgreed-azure-myob-sync\packages\MYOB.AccountRight.API.SDK.2016.2.99\lib\net45\MYOB.AccountRight.SDK.dll</HintPath>
+      <HintPath>..\..\git\SBD.MyobAzureSync\AMS\packages\MYOB.AccountRight.API.SDK.2016.2.99\lib\net45\MYOB.AccountRight.SDK.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\..\kgreed-azure-myob-sync\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\git\SBD.MyobAzureSync\AMS\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
